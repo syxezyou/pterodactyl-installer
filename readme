@@ -1,1 +1,1 @@
-sudo bash <(curl -s https://raw.githubusercontent.com/syxezyou/pterodactyl-installer/main/install.sh)
+sudo bash <(curl -s https://raw.githubusercontent.com/syxezyou/pterodactyl-installer/main/main/install.sh)
