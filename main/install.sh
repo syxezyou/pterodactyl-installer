@@ -2,10 +2,10 @@
 
 # ========================================================================================
 # Script d'installation automatique pour Pterodactyl Panel & Wings
-# Auteur: Gemini Code Assist
+# Auteur: syxezyou
 # Version: 1.0
 # OS: Debian 12 (Bookworm) ou supérieur
-# URL d'exécution : bash <(curl -s https://VOTRE_URL_RAW_GITHUB)
+# URL d'exécution : curl -sL https://VOTRE_URL_RAW_GITHUB | sudo bash
 # ========================================================================================
 
 # --- Configuration des couleurs pour les logs ---
@@ -34,7 +34,7 @@ log_error() {
 
 # --- Vérification de l'utilisateur (doit être root) ---
 if [ "$(id -u)" -ne 0 ]; then
-  log_error "Ce script doit être exécuté en tant que root. Essayez avec 'sudo bash <(curl -s ...)'"
+  log_error "Ce script doit être exécuté en tant que root. Essayez avec : curl -sL URL | sudo bash"
   exit 1
 fi
 
@@ -309,4 +309,5 @@ echo -e "Redémarrer Nginx:                 ${COLOR_YELLOW}systemctl restart ngi
 echo -e "Redémarrer Wings:                 ${COLOR_YELLOW}systemctl restart wings${COLOR_RESET}"
 echo ""
 log_success "Installation terminée !"
+log_success "Script Created By syxezyou"
 log_success "Script Created By syxezyou"
