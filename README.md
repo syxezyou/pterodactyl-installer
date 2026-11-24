@@ -2,7 +2,7 @@
 
 Script d’installation automatique pour **Pterodactyl Panel** et **Wings** sur Debian 12 (Bookworm) ou supérieur.
 
-**Auteur :** syxezyou  
+**Auteur :** SYX  
 **Version :** 1.0
 
 ---
@@ -108,4 +108,12 @@ Le script affiche :
 
 Ce script est fourni tel quel, sans garantie. Utilisez-le à vos propres risques.
 
-**Script créé par syxezyou**
+**Script créé par SYX**
+
+---
+
+## Auteur et maintenance
+
+**Développé par SYX** — [GitHub @syxezyou](https://github.com/syxezyou).
+
+Pour signaler un problème, indiquez la version utilisée, les étapes de reproduction et les messages d’erreur pertinents. Ne publiez jamais de clés privées, de mots de passe ou de jetons.
